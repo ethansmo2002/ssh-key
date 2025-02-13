@@ -1,0 +1,6 @@
+ssh-keygen -t ed25519 -C "ethansmothermon99@gmail.com"
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519-sk -C "ethansmothermon99@gmail.com"
+ cat ~/.ssh/id_ed25519.pub
